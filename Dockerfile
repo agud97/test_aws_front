@@ -1,5 +1,5 @@
 FROM node:lts-alpine as build-stage
-
+#test
 ARG VUE_APP_API_BASE_URL
 
 WORKDIR /app
